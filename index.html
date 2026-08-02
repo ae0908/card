@@ -219,7 +219,7 @@
     <div id="qr"></div>
     <div class="qrtext">
       <p class="title">Сканируй QR</p>
-      <p>Контакт сохранится в телефон автоматически</p>
+      <p>Откроет мою визитку в браузере</p>
     </div>
   </div>
 
@@ -230,7 +230,7 @@
 const vcard = "BEGIN:VCARD\nVERSION:3.0\nN:Старосельський;Олексій;;;\nFN:Олексій Старосельський\nORG:Атлант\nTEL;TYPE=CELL:+380504017595\nEMAIL:o.staroselskyi@atlant.kharkov.com\nURL:https://atlant-shop.com.ua\nEND:VCARD";
 
 new QRCode(document.getElementById("qr"), {
-  text: vcard,
+  text: "https://ae0908.github.io/card/",
   width: 108,
   height: 108,
   colorDark: "#F03136",
